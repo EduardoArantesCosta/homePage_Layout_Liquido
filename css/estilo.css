@@ -10,7 +10,7 @@ body{
 }
 
 #container{
-  background: #ede9cc;
+  background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
   margin: 0 auto;
   min-width: 740px;
   max-width: 1200px;
@@ -115,4 +115,79 @@ ul#navegacao a:hover{
   width: 226px;
   height: 164px;
   float: right;
+}
+
+/*Area Principal*/
+
+#area-principal{
+  float: left;
+  width: 50%;
+  background: url(../imagens/bg-area-principal.png) top left repeat-x;
+  padding: 15px 0;
+}
+
+/*Area Lateral*/
+#area-lateral{
+  float: right;
+  width: 50%;
+  background: url(../imagens/bg-area-lateral.png) top right repeat-x;
+  padding: 20px 0;
+}
+
+#beneficios li{
+  padding: 8px;
+  border-bottom: 1px solid #f3efcb;
+  height: 100px;
+}
+
+#beneficios img{
+  float: left;
+  margin-right: 8px;
+}
+
+#beneficios li a p{
+  font-size: 0.8em;
+  color: #000;
+}
+
+#beneficios li a h3{
+  background: url(../imagens/ornamento.png) no-repeat right center;
+  font-size: 1em;
+  color: #615b2d;
+  padding: 5px 0;
+}
+
+#beneficios li:hover{
+  background: #f6f3d6;
+  cursor: pointer;
+}
+
+
+/*Conteudo*/
+.conteudo{
+  margin: 0 auto;
+  width: 90%;
+}
+
+/*Formatação de textos*/
+
+h2{
+  color: #7d7640;
+  font-size: 1.1em;
+  padding: 5px 0;
+}
+
+p{
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+/*Rodape*/
+
+#rodape{
+  color: #7d7640;
+  clear: both;
+  padding: 16px;
+  background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+  text-align: center;
 }
